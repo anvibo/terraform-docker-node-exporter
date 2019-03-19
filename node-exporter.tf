@@ -1,6 +1,4 @@
-variable "networks" {
-  type = "list"
-}
+
 resource "docker_service" "exporter" {
     name = "exporter-service"
 
